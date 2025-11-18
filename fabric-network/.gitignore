@@ -1,0 +1,71 @@
+# Fabric Network .gitignore for Hyperledger Fabric Network
+
+# Channel artifacts
+channel-artifacts/
+*.block
+*.tx
+
+# Crypto material
+crypto-config/
+organizations/
+*.pem
+*.key
+*.crt
+*.cert
+*.p12
+*.pfx
+
+# System genesis block
+system-genesis-block/
+genesis.block
+
+# Ledger data
+ledger/
+data/
+volumes/
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Docker volumes
+docker-volumes/
+/var/lib/docker/volumes/
+
+# Chaincode packages
+*.tar.gz
+chaincode-packages/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Test network data
+test-network/
+network/
+
+# Backup files
+backup/
+backups/
+
