@@ -31,7 +31,7 @@ Make sure this user has read/write permissions in MongoDB Atlas.
 
 Your connection string is:
 ```
-mongodb+srv://abdmankhan:Mongo%402025@tmstoybooks.x3xuj.mongodb.net/academic-certificates?retryWrites=true&w=majority
+##hidden
 ```
 
 ## 🚀 Testing the Connection
